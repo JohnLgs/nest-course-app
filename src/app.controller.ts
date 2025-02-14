@@ -15,13 +15,18 @@ export class AppController {
     return this.appService.getName();
   }
 
-  @Get('/showinformation')
+  @Get('/showinformation') // link localhost:3000/showinformation
   showInfo(): string {
     return this.appService.showInfo();
   }
 
-  @Get('/JSON')
+  @Get('/JSON') // link localhost:3000/JSON
   getJSON() {
     return this.appService.getJSON();
+  }
+
+  @Get('/GitANDGitHub')
+  gitandgithub() {
+    return this.appService.gitandgithub();
   }
 }

@@ -18,4 +18,7 @@ export class AppService {
       hobby : 'football',
     };
   }
+  gitandgithub(): string {
+    return 'Git and GitHub using';
+  }
 }
