@@ -29,4 +29,9 @@ export class AppController {
   gitandgithub() {
     return this.appService.gitandgithub();
   }
+
+  @Get('/usepostman')
+  usepostman() {
+    return this.appService.usepostman();
+  }
 }

@@ -21,4 +21,7 @@ export class AppService {
   gitandgithub(): string {
     return 'Git and GitHub using';
   }
+  usepostman(): string {
+    return 'we use postman';
+  }
 }
